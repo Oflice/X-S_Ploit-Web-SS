@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Studio Executor</title>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Roblox Studio Executor</h1>
+            <div class="status" id="status">Disconnected</div>
+        </header>
+        
+        <div class="editor">
+            <textarea id="code" spellcheck="false">-- Example: Create a part
+local part = Instance.new("Part")
+part.Size = Vector3.new(4, 1, 4)
+part.Position = Vector3.new(0, 10, 0)
+part.Anchored = true
+part.Parent = workspace
+
+-- Example: Change properties
+workspace.Gravity = 50
+game:GetService("Lighting").TimeOfDay = "14:00:00"</textarea>
+        </div>
+        
+        <div class="controls">
+            <button id="execute">Execute</button>
+            <button id="clear">Clear</button>
+        </div>
+        
+        <div class="output">
+            <h3>Execution Log</h3>
+            <div id="output"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
