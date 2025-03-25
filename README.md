@@ -1,9 +1,9 @@
 # X-S_Ploit-Web-SS
-** A Web-Based Roblox Server-Side Executor **
+**A Web-Based Roblox Server-Side Executor**
 **NOTE:** *EDUCATIONAL PURPOSES ONLY!!!*
 
 # How to start server?
-**go to cmd to node-server and type node server.js(you must have installed Node.js)**
+**go to cmd to node-server and type npm install now type node server.js(you must have installed Node.js)**
 **Now go to localhost:3000 and open roblox studio or other game infected !!!MAKE SURE YOU JOINED INFECTED GAME FROM DEVICE WHERE STARTED SERVER!!! **
 
 # HOW TO INFECT GAME
